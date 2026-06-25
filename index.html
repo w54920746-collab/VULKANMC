@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VulkanMc | Анархия с приватами Minecraft</title>
+    <title>VulkanMc | Сервер Minecraft</title>
     <style>
         /* Общие стили и сброс */
         * {
@@ -99,9 +99,10 @@
         }
 
         .ip-text {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-weight: bold;
             letter-spacing: 1px;
+            color: #ffaa66;
         }
 
         .ip-status {
@@ -217,31 +218,27 @@
 
     <section class="hero">
         <div class="container">
-            <!-- Название проекта -->
             <h1>Vulkan<span>Mc</span></h1>
-            <div class="subtitle">Уникальная Анархия с Приватами</div>
+            <div class="subtitle">Выживание с приватами и экономикой</div>
 
-            <!-- Сюда впиши IP своего сервера вместо play.vulkanmc.ru -->
             <div class="ip-box" onclick="copyIP()">
-                <span class="ip-text" id="server-ip">play.vulkanmc.ru</span>
-                <span class="ip-status">Скопировать IP</span>
+                <span class="ip-text" id="server-ip">213.230.116.102:25575</span>
+                <span class="ip-status">Копировать</span>
             </div>
 
-            <!-- Навигация (вместо # вставь свои ссылки на донат и соцсети) -->
             <div class="buttons-grid">
                 <a href="#" class="btn btn-primary">Магазин / Донат</a>
                 <a href="#" class="btn btn-secondary">Наш Дискорд</a>
             </div>
 
-            <!-- Блок Особенностей -->
             <div class="features">
                 <div class="feature-card">
-                    <h3>Огненная анархия</h3>
-                    <p>Никаких правил, жесткое выживание и непрерывные битвы.</p>
+                    <h3>Уютное выживание</h3>
+                    <p>Классический геймплей, адекватное комьюнити и верные друзья.</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Умные приваты</h3>
-                    <p>Защити свой дом и ресурсы от чужаков специальными блоками.</p>
+                    <h3>Надежные приваты</h3>
+                    <p>Защити свои постройки от гриферов с помощью простых команд.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Стабильный ТПС</h3>
@@ -251,7 +248,6 @@
         </div>
     </section>
 
-    <!-- Плашка уведомления -->
     <div class="copied-toast" id="toast">IP сервера скопирован в буфер обмена!</div>
 
     <script>
